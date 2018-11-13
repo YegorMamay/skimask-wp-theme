@@ -2,14 +2,14 @@ $debug: false !default;
 $image-url-path: "assets/img/" !default;
 $font-url-path: "assets/fonts/" !default;
 
-$borderRadius: 0px;
-$shadow: 0 0 10px rgba(#000, .2);
+$borderRadius: 25px;
+$shadow: 0 0 10px rgba(#ffd44a, .5);
 
 // BRAND
-$themeColorOne: #2c3e50; // header, menu, footer, title,
-$themeColorTwo: #e74c3c; // menu active item, button, footer link hover, woo
-$themeColorThree: #3498db; // preHeader bg, wooOnSale
-$themeColorFour: #2980b9; //menu hover item, table border, preHeader font
+$themeColorOne: #1c1c1c; // header, menu, footer, title,
+$themeColorTwo: #ffd44a; // menu active item, button, footer link hover, woo
+$themeColorThree: #ffd44a; // preHeader bg, wooOnSale
+$themeColorFour: #ffd44a; //menu hover item, table border, preHeader font
 
 // SELECTION
 $selectionBgColor: $themeColorTwo;
