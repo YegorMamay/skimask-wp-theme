@@ -161,6 +161,10 @@ select {
   font-size: 13px;
   border-radius: 0px; }
 
+@font-face {
+  src: url("assets/fonts/Montserrat-ExtraBold.ttf");
+  font-family: "Montserrat ExtraBold"; }
+
 .alignnone {
   margin: 5px 20px 20px 0; }
 
@@ -5817,6 +5821,61 @@ a:hover .fa {
     background: #333; }
   ::-webkit-scrollbar-corner {
     background: transparent; } }
+
+.text_block {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  margin: 5px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start; }
+  .text_block .text_block_number,
+  .text_block .text_block_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .text_block .text_block_number {
+    position: relative;
+    font-size: 26px;
+    font-weight: bolder;
+    color: #fff;
+    padding-top: 12px;
+    left: -8px;
+    z-index: 5;
+    font-family: "Montserrat ExtraBold", sans-serif; }
+    .text_block .text_block_number::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 8px;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background-color: #e74c3c;
+      -webkit-box-shadow: 0px 0px 16px rgba(231, 76, 60, 0.6);
+      box-shadow: 0px 0px 16px rgba(231, 76, 60, 0.6);
+      z-index: -1; }
+  .text_block .text_block_content {
+    padding-left: 15px;
+    font-size: 12px; }
 
 .pre-header {
   padding: 5px 0;

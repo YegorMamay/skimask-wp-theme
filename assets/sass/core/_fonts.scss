@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa|Lobster&subset=cyrillic');
 
+@font-face {
+	src: url("assets/fonts/Montserrat-ExtraBold.ttf");
+	font-family: "Montserrat ExtraBold";
+}
+
 //font-family: 'Roboto', sans-serif;
 $font-family-sans-serif: "Arial", "Helvetica", sans-serif;
 $font-family-serif: "Georgia", "Times New Roman", "Times", serif;
@@ -7,3 +12,4 @@ $font-family-monospace: "Menlo", "Monaco", "Consolas", "Courier New", monospace;
 
 $fontFamilyOne: $font-family-sans-serif; //titles
 $fontFamilyTwo: $font-family-sans-serif; //body
+$fontBold: "Montserrat ExtraBold", sans-serif;
